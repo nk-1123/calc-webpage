@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+} /*to remove the unexpected spaces*/
+html{
+    font-size : 22px;
+    font-family: 'League Spartan',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: hsl(30, 25%, 89%);
+    font-size: 15px;
+}
+
+.container{
+    height: 100vh;/*viewport height*/
+    width: 100%;
+    display: flexbox;
+    align-items: center ;
+    justify-content: center;
+    background-color: hsl(222, 26%, 31%);
+    background-size: contain;
+    text-align: center;
+
+}
+.title{
+  color: white;
+  width: 370px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.title h1{
+    display: inline-block;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.title p{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+main{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+input{
+
+    width: 372px;
+    height: 80px;
+    margin: auto;
+    text-align: right;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+table{
+    margin: auto;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+button{
+    width: 70px;
+    height: 48px;
+    background-color: hsl(30, 25%, 89%);
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: hsl(223, 31%, 20%);
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0 3px hsl(28, 16%, 65%);
+    font-weight: 800;
+}
+table td{
+    padding: 8px;
+}
+
+table .reset{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 3px hsl(224, 28%, 35%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    
+}
+table .del{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 3px hsl(224, 28%, 35%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+table .equal{
+    font-size: 20px;
+    background-color:  hsl(6, 63%, 50%) ;
+    box-shadow: 1px 3px hsl(6, 70%, 34%);
+    width: 100%;
+    color: white;
+}
+tr span{
+    width: 145px;
+    color: white;
+}
+
+.attribution{
+
+    text-align: center;
+    color: hsl(223, 31%, 20%);
+    background-color: hsl(222, 26%, 31%);
+    padding-top: 20px;
+
+}
+table tr span{
+    color: aqua;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 23px;
+    margin-bottom: 5px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(223, 31%, 20%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: hsl(6, 63%, 50%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+ /*theme2*/
+ body.theme-2{
+     body{
+         background-color: hsl(0, 0%, 90%);
+    } 
+         
+     color:
+ }
+
+
