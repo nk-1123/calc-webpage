@@ -24,3 +24,8 @@ for(item of buttons){
         
     })
 }
+
+function myFun(){
+    var element= document.body;
+    element.classList.toggle('dark');
+}
